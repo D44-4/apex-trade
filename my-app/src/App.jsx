@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Markets from './pages/Markets';
 import Commodities from './pages/Commodities';
@@ -20,21 +20,21 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/About' component={About} />
-        <Route path='/Markets' component={Markets} />
-        <Route path='/Commodities' component={Commodities} />
-        <Route path='/Indices' component={Indices} />
-        <Route path='/SignUp' component={SignUp} />
-        <Route path='/BitcoinMining' component={BitcoinMining} />
-        <Route path='/Forex' component={Forex} />
-        <Route path='/RetirementPlanning' component={RetirementPlanning} />
-        <Route path='/PreciousMetals' component={PreciousMetals} />
-        <Route path='/Marijuana' component={Marijuana} />
-        <Route path='/RealEstate' component={RealEstate} />
-        <Route path='/CrudeOil' component={CrudeOil} />
-      </Switch>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/About' element={<About/>} />
+        <Route path='/Markets' element={<Markets/>} />
+        <Route path='/Commodities' element={<Commodities/>} />
+        <Route path='/Indices' element={<Indices/>} />
+        <Route path='/SignUp' element={<SignUp/>} />
+        <Route path='/BitcoinMining' element={<BitcoinMining/>} />
+        <Route path='/Forex' element={<Forex/>} />
+        <Route path='/RetirementPlanning' element={<RetirementPlanning/>} />
+        <Route path='/PreciousMetals' element={<PreciousMetals/>} />
+        <Route path='/Marijuana' element={<Marijuana/>} />
+        <Route path='/RealEstate' element={<RealEstate/>} />
+        <Route path='/CrudeOil' element={<CrudeOil/>}/>
+      </Routes>
     </Router>
   );
 }

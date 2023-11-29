@@ -1,0 +1,13 @@
+.footer_body{
+    background-color: grey;
+    height: 60vh;
+    color: white;
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+    width: px
+}
+.footer_logo {
+    
+    padding-left:20px;
+}

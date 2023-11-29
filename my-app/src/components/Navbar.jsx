@@ -17,7 +17,7 @@ function Navbar() {
     } else {
       setDropdown(true);
     }
-  };
+  }; 
 
   const onMouseLeave = () => {
     if (window.innerWidth < 960) {
@@ -31,7 +31,7 @@ function Navbar() {
     <div>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          EPIC
+        FAST-TRADERS
           <i class='fab fa-firstdraft' />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -58,11 +58,11 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/Markets'
+              t=''
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Markets <i className='fas fa-caret-down' />
+              Markets <i class="bi bi-caret-down-fill"></i>
             </Link>
             {dropdown && <Dropdown />}
           </li>

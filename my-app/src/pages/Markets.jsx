@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Marketing() {
+export default function Markets() {
   return (
     <div>
-      <h1 className='marketing'>MARKETING</h1>
+      <h1 className='markets'>MARKEts</h1>
     </div>
   );
 }

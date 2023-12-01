@@ -12,19 +12,43 @@ const Carousel = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
-                    <img src={img14} className="d-block w-100" alt="" width="" height="" />
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                    <img src={img14} className="d-block w-100" alt="" width="90" height="600" />
+                    <div className="carousel-caption d-none d-md-block text-primary">
+                        <h1>Trade Forex and Commodities with financial thinking.</h1>
+                        <h4>Access 40,000+ instruments – across asset classes – to trade, hedge and invest from a single account.</h4>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Open account</button>
+                            <button type="button" class="btn btn-secondary btn-lg">Login account</button>
+
+                        </div>
+                        <p>The small capital requirements in trading forex are due to the use of leverage when trading.</p>
+                        <div className='d-flex align-center'>
+                            <h5><i class="bi bi-tools"></i>Enhanced Tools</h5>
+                            <h5><i class="bi bi-file-text-fill"></i>Trading Guides</h5>
+                            <h5><i class="bi bi-lightning-fill"></i>Fast execution</h5>
+                            <h5><i class="bi bi-percent"></i>0% Commission</h5>
+                        </div>
                     </div>
+
                 </div>
+
                 <div className="carousel-item" data-bs-interval="2000">
-                <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h1>Trade Stocks and Cryptos Seamlessly.</h1>
+                        <h4>Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account.</h4>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Open account</button>
+                            <button type="button" class="btn btn-secondary btn-lg">Login account</button>
+                        </div>
+                        <div className='d-flex align-center'>
+                            <h5><i class="bi bi-tools"></i>Enhanced Tools</h5>
+                            <h5><i class="bi bi-file-text-fill"></i>Trading Guides</h5>
+                            <h5><i class="bi bi-lightning-fill"></i>Fast execution</h5>
+                            <h5><i class="bi bi-percent"></i>0% Commission</h5>
+                        </div>
                     </div>
-                    <img src={img15} className="d-block w-100" alt="..." />
-                    
+                    <img src={img15} className="d-block w-100" alt="..." width="90" height="600" />
+
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

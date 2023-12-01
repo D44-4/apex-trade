@@ -25,12 +25,13 @@ const CrudeOil = () => {
         The price of the spot contract reflects the current market price for oil, whereas the futures price reflects the price buyers are willing to pay for oil on a delivery date set at some point in the future. The futures price is no guarantee that oil will actually hit that price in the current market when that date comes. It is just the price that, at the time of the contract, purchasers of oil are anticipating. The actual price of oil on that date depends on many factors. Most commodity contracts that are bought and sold on the spot markets take effect immediately: Money is exchanged, and the purchaser accepts delivery of the goods. In the case of oil, the demand for immediate delivery versus future delivery is limited, in no small part due to the logistics, TheFipTrades has made it possible for our esteem investor to diversify its investment on crude oil.
       </p>
       <div>
-        <h2>
+        <h4>
           Min Deposit: $50,000
-        </h2>
-        <h2>
+        </h4>
+        <h4>
           ROI: 20% (Depending on market performance and pivot points)
-        </h2>
+        </h4>
+        <button type="button" class="btn btn-primary">Get Started</button>
       </div>
     </div>
   )

@@ -44,6 +44,7 @@ export default function PreciousMetals() {
       </p>
       <p>Min Deposit: $60,000</p>
       <p>ROI: 10-20%</p>
+      <button type="button" class="btn btn-primary">Get Started</button>
     </div>
   );
 };

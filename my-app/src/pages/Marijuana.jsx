@@ -37,6 +37,7 @@ export default function Marijuana() {
       <p>The company's portfolio includes names like Dutchie, Green Tank, and Cannalysis.</p>
       <p>And he's not the only celebrity seeing green. Singer Justin Bieber partnered with California-based Palms to release packs of pre-rolled joints called Peaches in October 2021.Martha Stewart launched her own brand of CBD products, including wellness gummies and oil drops, after partnering with Canopy Growth. Stewart released the line in September 2020. DIddy just got started.</p>
       <p>We’ve broken down some of the most common important investments principal and it’s Return on investment(ROI) on monthly basis.</p>
+      <button type="button" class="btn btn-primary">Get Started</button>
     </div>
   );
 }

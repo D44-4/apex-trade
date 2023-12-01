@@ -67,6 +67,7 @@ export default function BitcoinMining() {
       <p>Widget pack 5 ( 32 machines)</p>
       <p>Min Deposit: 15btc</p>
       <p>Rewards:50%-100%</p>
+      <button type="button" class="btn btn-primary">Get Started</button>
     </div>
   );
 }

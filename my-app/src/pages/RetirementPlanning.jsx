@@ -23,16 +23,17 @@ export default function RetirementPlanning() {
       <h2>Retirement Plan</h2>
       <img src={img1} alt="" width="45%"/>
       <h3>INDIVIDUAL PLAN</h3>
-      <p>Min Deposit: $150k</p>
-      <p>ROI: 10%</p>
+      <h5>Min Deposit: $150k</h5>
+      <h5>ROI: 10%</h5>
       <img src={img2} alt="" width="45%"/>
       <h3>COUPLE/JOINT PLAN</h3>
-      <p>Min Deposit: $250k</p>
-      <p>ROI: 20%</p>
+      <h5>Min Deposit: $250k</h5>
+      <h5>ROI: 20%</h5>
       <img src={img3} alt="" width="45%"/>
       <h3>FAMILY PLAN</h3>
-      <p>Min Deposit: $500k</p>
-      <p>ROI: 30%</p>
+      <h5>Min Deposit: $500k</h5>
+      <h5>ROI: 30%</h5>
+      <button type="button" class="btn btn-primary">Get Started</button>
     </div>
   );
 }

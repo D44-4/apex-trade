@@ -18,6 +18,7 @@ export default function RealEstate() {
       <p>Your portfolio is powered by high-quality, resilient assets. Our assets drive your returns. We pair our extensive network and expertise with the collective buying power of our investor community to acquire high-quality assets ranging from debt to equity, commercial to residential, and more.</p>
       <p>We follow a "value investing" strategy of acquiring assets for less than what we believe is their intrinsic value, and typically less than their replacement cost. Our team then works to increase the value of each asset over time through hands-on management and in partnership with local operators.</p>
       <p>We've specifically built the TheFipTrades portfolio with the intention of being able to withstand prolonged periods of economic distress. Nothing can be guaranteed, but because of our conservative approach and extensive underwriting processes, we believe the TheFipTrades portfolio is, from a risk-adjusted-return standpoint, well positioned to be able to sustain a severe economic downturn.</p>
+      <button type="button" class="btn btn-primary">Get Started</button>
     </div>
   );
 }

@@ -9,7 +9,8 @@ export default function Forex() {
       <p>The Forex market is the largest and most liquid market in the world, trillions of dollars are changing hands every day. There is no centralized location; rather, the Forex market is an electronic network of banks, brokers, financial institutions and individual traders (mainly trading through brokers or banks).</p>
       <h2>Experience more than Trading.</h2>
       <h3>As the world’s most-traded financial market, foreign exchange presents a wealth of opportunities for those who can harness its inherent volatility.</h3>
-      <div>
+      <button type="button" class="btn btn-primary">Get Started</button>
+      <div className='d-flex'>
         <div>
           <h2>Margins</h2>
           <p>
